@@ -4,7 +4,7 @@ let word = document.getElementById('word');
 let char = document.getElementById('char');
 
 area.addEventListener('input', function () {
-    let text = area.value;
+    let text = area.value.trim();
     char.textContent = text.length;
     
     word.textContent = text.trim().split(" ").filter(function(e){
