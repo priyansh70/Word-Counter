@@ -119,6 +119,7 @@
     .heading h1 {
         font-size: 15px;
         font-weight: 700;
+        padding: 6px;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
     }
@@ -133,7 +134,7 @@
 
     .bottom-box {
         flex-direction: column;
-        width: 66.5%;
+        width: 70%;
     }
 
     .bottom-box #result {
