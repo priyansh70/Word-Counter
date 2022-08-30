@@ -7,9 +7,7 @@ area.addEventListener('input', function () {
     let text = area.value;
     char.textContent = text.length;
     
-    word.textContent = text.trim().split(" ").filter(function(e){
-        return e != "";
-    }).length;
+    word.textContent = text.trim().split(/\s/).filter(function (e) { return e != ""; }).length;
 
 });
 clear.addEventListener('click', function () {
