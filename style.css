@@ -155,3 +155,28 @@
         width: 100%;
     }
 }
+@media screen and (max-width : 900px) and (min-width : 701px){
+    .heading h1 {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 6px;
+    }
+
+    .bottom-box {
+        flex-direction: column;
+        width: 42.5%;
+    }
+
+    .bottom-box #result {
+        margin: 5px 0px;
+        width: 94%;
+    }
+    .bottom-box .button {
+        width: 100%;
+        text-align: center;
+    }
+    #btn {
+        margin: 5px 0px;
+        width: 100%;
+    }
+}
